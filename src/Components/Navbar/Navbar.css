@@ -1,0 +1,86 @@
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 16px ;
+    background-color: linear-gradient(180deg,#f6baae,#86c6e8) ;
+}
+
+.nav_logo{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.nav_logo p{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    cursor: pointer;
+    margin-left:300px ;
+    text-decoration: none;
+}
+
+.nav_menu ul{
+    display: flex;
+    list-style: none;
+    padding: 0 ;
+}
+
+.nav_menu li{
+    margin-right: 50px;
+}
+.nav_menu li hr{
+    border : 2px solid firebrick ;
+}
+
+.cart_login{
+    display: flex;
+    flex-direction: row;
+}
+
+.cart_login button{
+    font-size: 20px;
+    outline: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    margin-right: 20px ;
+    background-color: beige;
+}
+
+.cart_login button:hover{
+    background-color: bisque;
+}
+
+.cart_login button:active{
+    background-color: antiquewhite;
+}
+
+.cart_login img{
+    height: 50px;
+    width: 50px;
+}
+
+.cart_login_count{
+    border: 2px solid red ;
+    background-color: red;
+    color:aliceblue ;
+    font-weight: 500;
+    height: 20px;
+    width: 20px ;
+    justify-content: center;
+    padding-bottom: 2px;
+    border-radius: 100%;
+    margin-right: -70px ;
+    margin-bottom: -90px ;
+}

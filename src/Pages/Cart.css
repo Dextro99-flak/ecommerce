@@ -1,0 +1,19 @@
+.cart-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-display{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.cart-checkout{
+    /* background-color: blueviolet; */
+    margin-left: 100px;
+    margin-top: 20px;
+}
